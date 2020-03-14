@@ -11,7 +11,7 @@ In this repository, we provide some scripts to handle the numerical landslide ri
 This data is only provided in a standard binary format used frequently in meteorology, called *FM92 GRIB version 2*. The software in this repository assumes that the user has already acquired such data via the appropriate channels.
 
 __Author and maintainer:__<br>
-<a href="https://feedbackward.com/">Matthew J. Holland</a> (Osaka University, Institute for Datability Science)
+<a href="https://feedbackward.com/">Matthew J. Holland</a> (Osaka University, ISIR)
 
 
 ## Demo notebooks
