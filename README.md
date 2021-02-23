@@ -1,4 +1,4 @@
-# Processing JMA landslide risk data
+# dosha-mesh: processing JMA landslide risk data
 
 In this repository, we provide some scripts to handle the numerical landslide risk assessment figures prepared in 10-minute intervals by the Japan Meteorological Agency (JMA). This data is  *not freely available data*, but must rather be purchased from the Japan Meteorological Business Support Center (JMBSC), which operates under the oversight of the JMA. Here are a couple relevant links:
 
@@ -16,9 +16,9 @@ __Author and maintainer:__<br>
 
 ## Demo notebooks
 
-- <a href="http://nbviewer.jupyter.org/github/feedbackward/dosha-mesh/blob/master/demo_binary_contents.ipynb">Digging into GRIB2 binary files (JMA landslide risk)</a>
+- <a href="http://nbviewer.jupyter.org/github/feedbackward/dosha-mesh/blob/master/dosha/demo_binary_contents.ipynb">Digging into GRIB2 binary files (JMA landslide risk)</a>
 
-- <a href="http://nbviewer.jupyter.org/github/feedbackward/dosha-mesh/blob/master/demo_usage.ipynb">Demo of reading, decompressing, and storing JMA landslide risk figures</a>
+- <a href="http://nbviewer.jupyter.org/github/feedbackward/dosha-mesh/blob/master/dosha/demo_usage.ipynb">Demo of reading, decompressing, and storing JMA landslide risk figures</a>
 
 
 ## Downloading tutorial materials
@@ -30,8 +30,4 @@ git clone https://github.com/feedbackward/dosha-mesh.git
 cd dosha-mesh
 ```
 
-and then go to work, placing any data directories as sub-folderns within this newly created `dosha-mesh` directory.
-
-
-
-
+and then go to work, placing any data directories as sub-folders within `dosha-mesh/dosha`.
